@@ -15,6 +15,7 @@ public class ProviderController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String index() {
         logger.info("Begin index.");
+        logger.debug("Begin index.");
         return "Hello: " + UUID.randomUUID().toString();
     }
 }

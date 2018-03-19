@@ -57,5 +57,6 @@
 		<module>../nero-eureka-server</module>
 		<module>../nero-service-consumer</module>
 		<module>../nero-service-provider</module>
+		<module>../nero-config-server</module>
 	</modules>
 </project>

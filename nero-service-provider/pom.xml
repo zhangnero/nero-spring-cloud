@@ -5,6 +5,7 @@
 		<groupId>com.nero</groupId>
 		<artifactId>nero-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../nero-parent</relativePath>
 	</parent>
 
 	<artifactId>nero-service-provider</artifactId>
@@ -16,6 +17,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
 	</dependencies>
 
 </project>

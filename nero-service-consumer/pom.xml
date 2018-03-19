@@ -5,6 +5,7 @@
 		<groupId>com.nero</groupId>
 		<artifactId>nero-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../nero-parent</relativePath>
 	</parent>
 	<artifactId>nero-service-consumer</artifactId>
 	<packaging>jar</packaging>
